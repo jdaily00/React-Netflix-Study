@@ -2,7 +2,7 @@ import React from 'react';
 import './Nav.css'
 
 export default function Nav() {
-    return <nav>
+    return <nav className="nav-container">
         <img className="netflix-logo-img"
              src="/assets/images/netflix-logo.svg"
              alt="netflix-logo-image"
